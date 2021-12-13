@@ -15,7 +15,7 @@ Run it with the following arguments:
 4. Number desired of reducers.
 5. Number of intermediaries. (Just for analogp)
 
-The file provided must be in the same structure as the log file located in the same folder.
+The file provided must have the same structure as the log file located in the same folder.
 
 * **analogh** Provides a MapReduce implementation based on the use of the fork() method to create processes that can be mappers, intermediaries and reducers. All communication between processes is supported by the use of buffer files, and each step of the query processing is done sequentially.
 * **analogh** Provides a MapReduce implementation based on the use of the pthread library to create threads that can be mappers and reducers. All intra-thread communication is supported by the use of shared memory buffers, and each step of the query processing is done sequentially.
