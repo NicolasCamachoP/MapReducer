@@ -3,7 +3,7 @@ Three MapReduce style algorithms for querying statistics related to ingested log
 
 ## Usage
 
-* Clone the repository `git clone https://github.com/NicolasCamachoP/MapReducerThreads.git`
+* Clone the repository `git clone https://github.com/NicolasCamachoP/MapReducer.git`
 * Move to the source files directory `cd /MapReducerThreads/MapReducer`
 * Compile using the makefile included with `make`
 
